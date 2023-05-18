@@ -60,22 +60,15 @@ elif metalType == "B":
             print("See Price Chart")
         else:
             print("Error invalid input")
-        
 
 
 
-
-
-
-    
-
-
-
-elif metalType == 2:
+elif metalType == "B":
     silverType = input("1: Scrap Silver Coin    2: Scrap Dirty Silver")
     silverPercent = input("Input the percent of Silver")
 else:
-    print("Not a valid input")
+    print("Not a valid input") 
+    
 
 
 
